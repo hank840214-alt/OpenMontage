@@ -67,6 +67,9 @@ pixabay_music_*
 .DS_Store
 Thumbs.db
 
+# OMC local state
+.omc/
+
 # Node (for remotion-composer/)
 node_modules/
 
