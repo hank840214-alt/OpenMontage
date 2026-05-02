@@ -46,6 +46,7 @@ Recommended `scene_plan.metadata` keys:
 - `quote_card_rules`
 - `audiogram_rules`
 - `full_episode_companion_rules`
+- `collab_handle` — IG handle of the guest featured in the clip, propagated downstream so the publish stage can issue the IG Collab Post invite. Required for any clip where a non-host speaker is the subject.
 
 ### 5. Plan Safe Zones And Attribution
 
