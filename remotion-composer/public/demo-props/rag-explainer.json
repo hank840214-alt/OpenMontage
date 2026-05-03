@@ -1,0 +1,98 @@
+{
+  "theme": "clean-professional",
+  "cuts": [
+    {
+      "id": "hook",
+      "source": "",
+      "type": "hero_title",
+      "in_seconds": 0,
+      "out_seconds": 10.37,
+      "text": "你的 AI\n為什麼會胡說八道？",
+      "heroSubtitle": "60 秒搞懂 RAG",
+      "animation": "spring"
+    },
+    {
+      "id": "problem",
+      "source": "",
+      "type": "text_card",
+      "in_seconds": 10.37,
+      "out_seconds": 25.25,
+      "title": "問題：AI 幻覺",
+      "text": "傳統 LLM 只靠訓練時的記憶回答問題\n就像考生閉卷考試 — 記錯了，答案就錯了",
+      "animation": "spring"
+    },
+    {
+      "id": "solution",
+      "source": "",
+      "type": "stat_card",
+      "in_seconds": 25.25,
+      "out_seconds": 34.68,
+      "stat": "RAG",
+      "text": "Retrieval-Augmented Generation",
+      "subtitle": "讓 AI 從「閉卷」變「開卷」考試",
+      "animation": "spring"
+    },
+    {
+      "id": "howworks",
+      "source": "",
+      "type": "comparison",
+      "in_seconds": 34.68,
+      "out_seconds": 49.37,
+      "title": "RAG 三步驟",
+      "leftLabel": "傳統 LLM",
+      "rightLabel": "RAG 系統",
+      "leftValue": "問題 → 記憶 → 回答\n❌ 可能出錯",
+      "rightValue": "問題 → 搜尋 → 找文件 → 回答\n✅ 有憑有據",
+      "animation": "spring"
+    },
+    {
+      "id": "data",
+      "source": "",
+      "type": "bar_chart",
+      "in_seconds": 49.37,
+      "out_seconds": 61.32,
+      "title": "RAG 的效果",
+      "chartData": [
+        { "label": "傳統 LLM\n準確率", "value": 60 },
+        { "label": "RAG\n準確率", "value": 95 },
+        { "label": "幻覺\n降低", "value": 70 }
+      ],
+      "showValues": true,
+      "animation": "spring"
+    },
+    {
+      "id": "apps",
+      "source": "",
+      "type": "kpi_grid",
+      "in_seconds": 61.32,
+      "out_seconds": 70.44,
+      "title": "RAG 應用場景",
+      "columns": 2,
+      "chartData": [
+        { "label": "客服機器人", "value": "24/7" },
+        { "label": "企業知識庫", "value": "精準" },
+        { "label": "法律分析", "value": "可溯源" },
+        { "label": "醫療問答", "value": "安全" }
+      ],
+      "animation": "spring"
+    },
+    {
+      "id": "closing",
+      "source": "",
+      "type": "text_card",
+      "in_seconds": 70.44,
+      "out_seconds": 76.18,
+      "title": "RAG",
+      "text": "讓 AI 不再胡說八道的秘密武器",
+      "animation": "spring"
+    }
+  ],
+  "overlays": [],
+  "captions": [],
+  "audio": {
+    "narration": {
+      "src": "audio/rag-explainer/narration.mp3",
+      "volume": 1.0
+    }
+  }
+}

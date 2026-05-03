@@ -1,0 +1,92 @@
+{
+  "theme": "clean-professional",
+  "cuts": [
+    {
+      "id": "hero",
+      "source": "hero_title",
+      "type": "hero_title",
+      "in_seconds": 0,
+      "out_seconds": 4,
+      "text": "OpenMontage",
+      "heroSubtitle": "AI-Powered Video Production",
+      "animation": "spring"
+    },
+    {
+      "id": "intro",
+      "source": "text_card",
+      "type": "text_card",
+      "in_seconds": 4,
+      "out_seconds": 8,
+      "title": "What is OpenMontage?",
+      "text": "The first open-source agentic video production system. 11 pipelines, 73+ tools, 131 skills.",
+      "animation": "spring"
+    },
+    {
+      "id": "stats",
+      "source": "stat_card",
+      "type": "stat_card",
+      "in_seconds": 8,
+      "out_seconds": 12,
+      "stat": "73+",
+      "text": "Production Tools",
+      "subtitle": "Video, Audio, Graphics, Enhancement",
+      "animation": "spring"
+    },
+    {
+      "id": "chart1",
+      "source": "bar_chart",
+      "type": "bar_chart",
+      "in_seconds": 12,
+      "out_seconds": 17,
+      "title": "Tools by Category",
+      "chartData": [
+        { "label": "Video", "value": 19 },
+        { "label": "Graphics", "value": 13 },
+        { "label": "Audio", "value": 10 },
+        { "label": "Analysis", "value": 10 },
+        { "label": "Enhance", "value": 5 }
+      ],
+      "showValues": true,
+      "animation": "spring"
+    },
+    {
+      "id": "chart2",
+      "source": "pie_chart",
+      "type": "pie_chart",
+      "in_seconds": 17,
+      "out_seconds": 22,
+      "title": "Pipeline Stability",
+      "chartData": [
+        { "label": "Production", "value": 7 },
+        { "label": "Beta", "value": 3 },
+        { "label": "Test", "value": 1 }
+      ],
+      "showLegend": true,
+      "animation": "spring"
+    },
+    {
+      "id": "progress",
+      "source": "progress_bar",
+      "type": "progress_bar",
+      "in_seconds": 22,
+      "out_seconds": 26,
+      "title": "Setup Complete",
+      "progress": 100,
+      "progressLabel": "Ready to Create",
+      "progressAnimation": "spring"
+    },
+    {
+      "id": "cta",
+      "source": "text_card",
+      "type": "text_card",
+      "in_seconds": 26,
+      "out_seconds": 30,
+      "title": "Start Creating",
+      "text": "Your AI coding assistant is now a full video production studio.",
+      "animation": "spring"
+    }
+  ],
+  "overlays": [],
+  "captions": [],
+  "audio": {}
+}
